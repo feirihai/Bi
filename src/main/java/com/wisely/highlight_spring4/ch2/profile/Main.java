@@ -11,5 +11,6 @@ public class Main {
         DemoBean demoBean = context.getBean(DemoBean.class);
         System.out.println(demoBean.getContent());
         context.close();
+        System.out.println("jjjj");
     }
 }
